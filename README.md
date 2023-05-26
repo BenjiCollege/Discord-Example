@@ -26,6 +26,17 @@ The bot is designed to interact with users in the server by replying to certain 
 - The bot responds to specific message content with pre-defined responses. For example, when a user sends a message with content "daikuu", the bot replies with "DAIKUUUUUUUUUU XD".
 - The bot can reply with a custom embed message, which includes a random description and an attached gif image when a user sends a message with content "league?".
 
+## Commands and how they work
+!jugath : Returns a random funny, sad, happy, thinking, or mad response.
+!oodie : Sends a promotional message about The Oodie, with an image and a link.
+tetrio? : Sends a message indicating the user wants to play Tetrio, with a random description and a gif.
+zelda? : Sends a message indicating the user is playing Zelda, with a random description and a gif.
+games? : Sends a message indicating the user is ready to play some games, with a random description and a gif.
+omw : Sends a message indicating the user is on their way, with a random description and a gif.
+hug : Sends a message indicating the user is giving a hug, with a random description and a gif.
+!feed : Sends a message indicating the user is feeding someone, with a random description and a gif.
+!dobby profile : Creates a dynamic profile picture with the user's name and avatar.
+
 ## How to Extend This Bot
 If you want to add new commands to the bot, you can create new .js files in the commands directory. Each command file should export an object with two properties: `data` and `execute`. The `data` property should be an instance of the `SlashCommandBuilder` class, and `execute` should be a function that takes an `interaction` parameter and executes the command's action.
 
